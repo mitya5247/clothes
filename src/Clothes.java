@@ -9,6 +9,18 @@ public abstract class Clothes {
         this.colour = colour;
     }
 
+    public Size getSize() {
+        return size;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
 
     @Override
     public String toString() {

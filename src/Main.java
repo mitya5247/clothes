@@ -5,7 +5,7 @@ public class Main {
         MenClothes tShirt = new TShirt(Size.S, 3000, "Черный");
         MenClothes trousers = new Trousers(Size.M, 10000, "Белый");
         WomenClothes skirt = new Skirt(Size.L, 3400, "Белый");
-        MenClothes tie = new Tie(Size.XXS, 1000, "Оранженвый");
+        MenClothes tie = new Tie(Size.XXS, 1000, "Оранжевый");
         WomenClothes skirt1 = new Skirt(Size.XS, 23000, "Зеленая");
         WomenClothes tShirt1 = new TShirt(Size.S, 4000, "Бежевая");
 
@@ -20,6 +20,8 @@ public class Main {
 
         studio.dressMan();
         studio.dressWoman();
+        System.out.println("Итоговая сумма " + studio.getSum());
+        System.out.println("Самый большой размер " + studio.getMaxSize());
 
 
     }
